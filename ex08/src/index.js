@@ -1,24 +1,16 @@
 function main(numOne, numTwo) {
 
-    var numOne = Array("15", "5", "150");
-    var numTwo = Array("8", "28", "425")
 
-
-
-   /* var numTwo = 8;
-    var numOne = 5;
-    var numTwo = 28;
-    var numOne = 150
-    var numTwo = 425 */
-    
-    sum = 23;
-    sum = 33;
-    sum = 575; 
+    var sum = numOne + numTwo;
 
     return sum;
 
 }
 
-console.log(main("numOne, numTwo"));
+
+console.log(main(15,8));
+console.log(main(5,28));
+console.log(main(150,425));
+
 
 module.exports = main;
