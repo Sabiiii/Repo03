@@ -1,15 +1,14 @@
 function main(numOne, numTwo) {
 
-    var numOne = Array("15", "5", "150");
-    var numTwo = Array("8", "28", "425");
 
-    difference = 7;
-    difference = 17;
-    difference = 305; 
+    var difference = numOne - numTwo;
+
 
     return difference;
 }
 
-console.log(main("numOne, numTwo"));
+console.log(main(15,8));
+console.log(main(25,8));
+console.log(main(425,120));
 
 module.exports = main;
